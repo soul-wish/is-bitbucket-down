@@ -1,0 +1,42 @@
+{
+  "name": "is-bitbucket-down",
+  "version": "1.0.0",
+  "description": "Check if Bitbucket is down right from your terminal",
+  "author": {
+      "name": "Sergey Lysenko",
+      "email": "soulwish.ls@gmail.com",
+      "url": "soulwish.info"
+  },
+  "license": "MIT",
+  "bin": "cli.js",
+  "homepage": "https://github.com/soul-wish/is-bitbucket-down#readme",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/soul-wish/is-bitbucket-down.git"
+  },
+  "bugs": {
+      "url": "https://github.com/soul-wish/is-bitbucket-down/issues"
+  },
+  "keywords": [
+      "cli",
+      "cli-app",
+      "terminal",
+      "bitbucket",
+      "check",
+      "status"
+  ],
+  "engines": {
+      "node": ">=4"
+  },
+  "dependencies": {
+    "got": "^6.1.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.35",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha --timeout 12000 --require babel/register"
+  }
+}
